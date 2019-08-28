@@ -1,0 +1,36 @@
+main {
+    background-color: white;
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 477px;
+    margin-right: auto;
+}
+
+main div#signup h1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    font-family: Arial;
+}
+
+main div#signup input{
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 4px;
+    margin-left: 115px;
+    padding: 4px 4px 4px 4px;
+}
+
+main div#signup button{
+    margin-left: 177px;
+    border: none;
+    padding: 4px 7px 4px 7px;
+}
+
+main div#signup button:hover {
+    background-color: #e4e4e4;
+    border-bottom: 1px crimson solid;
+}
