@@ -1,5 +1,7 @@
 <?php
-if (isset($_POST['login-submit'])){
+//print_r($_POST);
+//die();
+if (isset($_POST['login-submit_'])){
 
     require 'dbh.inc.php';
 
@@ -9,8 +11,7 @@ if (isset($_POST['login-submit'])){
     if (empty($mailuid) || empty($password)){
         header("Location: ../index.php?error=emptyfields" );
         exit();
-    }
-    else{
+    } else {
         $sql = "SELECT * FROM users WHERE uidUsers=? OR emailUsers=?";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)){
@@ -18,7 +19,7 @@ if (isset($_POST['login-submit'])){
             exit();
         }
         else{
-            mysqli_stmt_bind_param($stmt, " ss", $mailuid, $mailuid);
+            mysqli_stmt_bind_param($stmt, "ss", $mailuid, $mailuid);
             mysqli_stmt_execute($stmt);
             $result = mysqli_stmt_get_result($stmt);
             if ($row = mysqli_fetch_assoc($result)){
@@ -29,7 +30,7 @@ if (isset($_POST['login-submit'])){
                 }
                 else if ($pwdCheck == true){
                     session_start();
-                    $_SESSION[] = $row['idUsers'];
+                    $_SESSION['userID'] = $row['idUsers'];
                     $_SESSION[] = $row['uidUsers'];
 
                     header("Location: ../index.php?login=succes" );
