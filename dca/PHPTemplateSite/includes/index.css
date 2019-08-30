@@ -1,64 +1,267 @@
-@media all and (min-width: 1200px ) {
+
+div#wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e2e2e2;
+}
+
+div#artikelcluster {
+    display: flex;
+    justify-content: center;
+}
 
 
-    * {
-        /* border: 1px black dotted;*/
+div.artikel1 {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 15%;
+    border-radius: 5px;
+
+}
+
+div.artikel2 {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+
+div.artikel3 {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+
+div.artikel4 {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+
+div#navigatiebalk {
+    border-radius: 5px;
+}
+
+
+div.artikel1 h1, div.artikel2 h1, div.artikel3 h1, div.artikel4 h1 {
+    font-family: Verdana;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.artikel1 p, div.artikel2 p, div.artikel3 p, div.artikel4 p {
+    font-style: italic;
+    color: #999999;
+    text-align: center;
+}
+
+div.artikel1 p.paragraaf1, div.artikel2 p.paragraaf2, div.artikel3 p.paragraaf3, div.artikel4 p.paragraaf4 {
+    color: black;
+    font-style: normal;
+    font-family: Verdana;
+    font-size: smaller;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+i {
+    color: grey;
+    margin-left: 10px;
+}
+
+div.extra1 {
+    margin-top: 110px;
+    border-top: 2px solid #e2e2e2;
+    padding-top: 5px;
+}
+
+div.extra2 {
+    margin-top: 110px;
+    border-top: 2px solid #e2e2e2;
+    padding-top: 5px;
+}
+
+div.extra3 {
+    margin-top: 127px;
+    border-top: 2px solid #e2e2e2;
+    padding-top: 5px;
+}
+
+div.extra4 {
+    margin-top: 127px;
+    border-top: 2px solid #e2e2e2;
+    padding-top: 5px;
+}
+
+div.extra1 a, div.extra2 a, div.extra3 a, div.extra4 a {
+    text-decoration: none;
+    font-style: oblique;
+    color: #444444;
+}
+
+div.extra1 a:hover, div.extra2 a:hover, div.extra3 a:hover, div.extra4 a:hover {
+    color: #9f9f9f;
+}
+
+div#navigatiebalk ul{
+    display: none;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media all and (min-width: 540px) {
+    div#navigatiebalk {
+        background-color: rgba(202, 200, 187, 0.53);
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        position: sticky;
+        top: 10px;
+        height: 600px;
+        width: 100%;
+        margin-top: 10px;
     }
 
+    div#navigatiebalk ul{
+        list-style: none;
+        display: inline-block;
+        padding-left: 30px;
+    }
+
+    div#navigatiebalk ul li {
+        margin-top: 5px;
+    }
+
+    div#navigatiebalk ul li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family: Verdana;
+
+    }
+
+    div#navigatiebalk ul li a:hover {
+        text-decoration: none;
+        color: rgb(99, 99, 99);
+        font-family: Verdana;
+        border-bottom: 2px rgb(99, 99, 99) solid;
+
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media all and (min-width: 800px) {
+
+    div#wrapper {
+        max-height: 700px;
+    }
+
+    div#navigatiebalk {
+        width: 200px;
+        grid-column-start: 5;
+        position: relative;
+        height: 610px;
+        margin-top: 0;
+    }
+
+
+    div.artikel2 {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-top: 10px;
+        padding-top: 0;
+    }
+
+    div.artikel3 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        padding-top: 0;
+    }
+
+    div.artikel4 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media all and (min-width: 1200px ) {
     div#wrapper {
         display: grid;
-        grid-column-gap: 20px;
+        grid-gap: 0;
         grid-template-columns: 1fr 4fr 1fr 4fr 2fr 3fr;
         grid-template-rows: 20px 300px 20px 300px 70px;
     }
 
-    div#artikelcluster {
-
-    }
 
     div.artikel1 {
-        background-color: aqua;
         height: 300px;
         width: 300px;
-        margin-left: 100px;
+        margin-left: 80px;
         margin-top: 20px;
 
     }
 
     div.artikel2 {
-        background-color: aqua;
         height: 300px;
         width: 300px;
-        margin-top: 20px
-
+        margin-top: 20px;
+        margin-right: 20px;
     }
 
     div.artikel3 {
-        background-color: aqua;
         height: 300px;
         width: 300px;
         grid-column-start: 1;
         grid-row-start: 3;
-        margin-left: 100px;
-        margin-top: 20px
+        margin-left: 80px;
+        margin-top: 20px;
     }
 
     div.artikel4 {
-        background-color: aqua;
         height: 300px;
         width: 300px;
         grid-column-start: 2;
         grid-row-start: 3;
-        margin-top: 20px
+        margin-top: 20px;
+        margin-right: 20px;
     }
 
     div#navigatiebalk {
         height: 620px;
         width: 200px;
-        background-color: crimson;
-        grid-column-start: 4;
+        grid-column-start: 5;
         grid-row-start: 1;
-        margin-top: 20px
+        margin-top: 20px;
+        position: static;
     }
 
 }
