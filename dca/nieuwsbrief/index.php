@@ -22,6 +22,9 @@
 <br>
 <button><a href="beheren.php">Maillinglijst beheren</a></button>
 <br>
+
 </div>
+<a class="home" href="../PHPTemplateSite/index.php">Klik hier om terug te gaan naar de home pagina</a >
+
 </body>
 </html>

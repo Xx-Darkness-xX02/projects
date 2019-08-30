@@ -18,3 +18,7 @@ button{
 h1, h2{
     margin-left: 5px;
 }
+
+a.home {
+    text-decoration: #444444;
+}

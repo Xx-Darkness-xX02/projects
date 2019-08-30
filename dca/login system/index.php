@@ -14,6 +14,7 @@ require "header.php";
             echo '<p>You are logged out!</p>';
         }
         ?>
+        <a href="../PHPTemplateSite/index.php">Klik hier om terug te gaan naar de home pagina</a>
 
     </main>
 

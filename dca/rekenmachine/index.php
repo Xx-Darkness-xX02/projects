@@ -47,6 +47,8 @@ if (isset($_GET['submit'])) {
     }
 }
 ?>
+<br>
+<a href="../PHPTemplateSite/index.php">Klik hier om terug te gaan naar de home pagina</a>
 
 </body>
 </html>
