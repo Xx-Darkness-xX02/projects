@@ -1,0 +1,33 @@
+div#wrapper {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e2e2e2;
+    font-family: Verdana;
+    height: 440px;
+    align-items: center;
+}
+
+div#artikel {
+    text-align: center;
+    width: 700px;
+    margin-left: 150px;
+    margin-right: auto;
+    background-color: #adadad;
+    position: absolute;
+    margin-top: 50px
+}
+
+div#artikel img {
+    border-radius: 5px;
+    border: crimson 1px solid
+}
+
+div#artikel p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div#artikel h1{
+    margin-top: 0;
+}
