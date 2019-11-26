@@ -43,12 +43,12 @@ require "header.php";
             </div>
 
             <div class="artikel4">
-                <h1>Forum</h1>
-                <small><p>-posted at 30/08/19</p></small>
-                <p class="paragraaf4">dit project is nog niet van start gegaan. het kan zijn dat er een andere komt of dat ik hier aan ga beginnen.</p>
+                <h1>Signature</h1>
+                <small><p>-posted at 26/11/19</p></small>
+                <p class="paragraaf4">Dit was mijn eerste project voor het stagebedrijf. Hiervan heb ik heel veel geleerd.</p>
                 <div class="extra4">
                     <i class="fas fa-folder"></i>
-                    <a href="external/img/l.php">verder lezen</a>
+                    <a href="externalPages/signature.php">verder lezen</a>
                 </div>
             </div>
 
@@ -61,6 +61,8 @@ require "header.php";
                     <li><a href="#">Rekenmachine</a></li>
                     <li><a href="#">Login systeem</a></li>
                     <li><a href="#">Nieuwsbrief</a></li>
+                    <li><a href="../signature/index.php">Signature Generator</a></li>
+                    <li><a href="externalPages/wiki.php">Fun Site</a></li>
                 </ul>
             </div>
         </div>

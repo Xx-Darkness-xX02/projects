@@ -1,0 +1,541 @@
+:root {
+    /*---- deep blue and purples ------*/
+    --color_1: #0C0032;
+    --color_2: #190061;
+    --color_3: #240090;
+    --color_4: #3500D3;
+    --color_5: #282828;
+}
+
+
+/*--------------------------- eerste div styling --------------------------*/
+div.item_1 {
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 0 150px rgb(53, 0, 211);
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    z-index: 5;
+
+}
+
+div.shadow_item_1 {
+    height: 250px;
+    width: 250px;
+    background-color: var(--color_3);
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: 350px;
+}
+
+div.styling_item_1 {
+    position: absolute;
+    height: 90px;
+    width: 40px;
+    background-color: var(--color_1);
+    right: -155px;
+    z-index: 8;
+    border-radius: 5px;
+    top: -90px;
+}
+
+div.styling_item_2 {
+    height: 120px;
+    width: 70px;
+    border: 3px solid white;
+    position: absolute;
+    left: -140px;
+    top: -140px;
+
+}
+
+div.styling_item_2 h1 {
+    color: white;
+    font-size: 34px;
+    margin: 0;
+    display: inline-block;
+}
+
+div.styling_item_2 p {
+    color: white;
+    margin: 0;
+    display: inline-block;
+}
+
+div.styling_item_2 img {
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+div.styling_item_2:hover {
+    background-color: var(--color_2);
+    color: red;
+}
+
+div.styling_item_3 {
+    background-color: var(--color_1);
+    height: 20px;
+    width: 130px;
+    border-radius: 40px;
+    position: absolute;
+    top: 240px;
+    left: -50px;
+}
+
+div#q0 {
+    display: none;
+}
+
+/*----------------------------- einde eerste div styling --------------------------*/
+
+/*----------------------------- tweede div styling --------------------------*/
+div#q1 {
+    position: relative;
+    display: none;
+}
+
+div.item_2 {
+    background-color: #ab54ff;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 200px;
+    z-index: 4;
+    border-radius: 15px;
+}
+
+div.shadow_item_2 {
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 120px;
+    left: -80px;
+    z-index: 3;
+    border-radius: 15px;
+}
+
+div.styling_item_4 {
+    height: 60px;
+    width: 100px;
+    background-color: var(--color_1);
+    position: absolute;
+    top: 368px;
+}
+
+div.styling_item_5 {
+    background-color: var(--color_1);
+    height: 100px;
+    width: 30px;
+    top: 300px;
+    position: absolute;
+}
+
+div.shadow_styling_item_1 {
+    height: 15px;
+    width: 70px;
+    background-color: var(--color_1);
+    position: absolute;
+    top: 185px;
+}
+
+div.shadow_styling_item_2 {
+    height: 70px;
+    width: 15px;
+    background-color: var(--color_1);
+    position: absolute;
+    top: 131px;
+}
+
+div.styling_item_6 {
+    height: 120px;
+    width: 70px;
+    position: absolute;
+    border: 3px solid white;
+    color: white;
+    font-weight: 700;
+    top: 10px;
+    left: 10px;
+}
+
+div.styling_item_6 h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+div.styling_item_6 p {
+    display: inline-block;
+    margin: 0;
+}
+
+div.styling_item_6 img {
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+div#q1 div.item_2 button {
+    left: 300px;
+    top: 300px;
+}
+
+div.styling_item_6:hover {
+    background-color: var(--color_2);
+    color: gray;
+}
+
+/*-----------------------------einde tweede div styling --------------------------*/
+
+
+/*----------------------------- derde div styling ------------------------*/
+div#q2 {
+    display: block;
+}
+
+div.item_3 {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    background-color: dimgrey;
+    top: 240px;
+    z-index: 10;
+    left: 100px;
+    border-radius: 5px 100px 5px 100px;
+}
+
+div.shadow_item_3 {
+    background-color: #b4b4b4;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 4;
+    top: 250px;
+    left: 400px;
+    border-radius: 5px 100px 5px 100px;
+}
+
+div.styling_item_7 {
+    background-color: #3a3a3a;
+    height: 120px;
+    width: 30px;
+    border-radius: 40px;
+    position: absolute;
+    left: 185px;
+    top: 270px;
+    z-index: 19;
+    box-shadow: #4c4c4c 5px 4px;
+}
+
+div.styling_item_8 {
+    width: 1px;
+    background-color: #d0d0d0;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+div.styling_item_9 {
+    width: 1px;
+    background-color: #d0d0d0;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    transform: rotate(90deg);
+}
+
+div.styling_item_10 {
+    border: 3px solid white;
+    color: white;
+    width: 70px;
+    height: 120px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+div.styling_item_10 h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+div.styling_item_10 p {
+    margin: 0;
+    display: inline-block;
+}
+
+div.styling_item_10 img {
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+div.styling_item_11 {
+    background-color: var(--color_1);
+    height: 100px;
+    width: 30px;
+    border-radius: 20px;
+    position: absolute;
+    left: 300px;
+    top: 40px;
+    transform: rotate(-30deg);
+}
+
+div#q2 div.item_3 button {
+    top: 250px;
+    left: 300px;
+}
+
+/*----------------------------- einde derde div styling ------------------------------*/
+
+
+/*----------------------------------- dna styling ---------------------------*/
+div#dna_holder {
+    height: 60px;
+    width: 60px;
+    animation-iteration-count: infinite;
+    will-change: transform;
+    transition-timing-function: linear;
+    position: absolute;
+    animation-delay: 0s;
+}
+
+div.dna1 {
+    left: 340px;
+    top: 432px;
+    animation-name: rotate;
+    animation-duration: 2.3s;
+
+}
+
+div.dna2 {
+    left: 940px;
+    top: 332px;
+    animation-name: rotate;
+    animation-duration: 3s;
+}
+
+div.dna3 {
+    left: 560px;
+    top: 432px;
+    animation-name: rotate_negative;
+    animation-duration: 6s;
+}
+
+div.dna4 {
+    left: 1060px;
+    top: 432px;
+    animation-name: rotate_negative;
+    animation-duration: 9s;
+}
+
+
+div.dna5 {
+    left: 560px;
+    top: 832px;
+    animation-name: rotate;
+    animation-duration: 4s;
+}
+
+div.dna6 {
+    left: 900px;
+    top: 700px;
+    animation-name: rotate_negative;
+    animation-duration: 1s;
+}
+
+div.dna7 {
+    left: 1200px;
+    top: 700px;
+    animation-name: rotate_negative;
+    animation-duration: 2s;
+}
+
+div.dna8 {
+    left: 1000px;
+    top: 600px;
+    animation-name: rotate_negative;
+    animation-duration: 5s;
+}
+
+div.dna9 {
+    left: 200px;
+    top: 700px;
+    animation-name: rotate;
+    animation-duration: 6s;
+}
+
+/*----------------------------------------- einde dna styling ---------------------------------------*/
+
+
+/*-------------------------------   alle keyframes ---------------------------*/
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate_negative {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(-10deg)
+    }
+    20% {
+        transform: rotate(0deg)
+    }
+    40% {
+        transform: rotate(10deg)
+    }
+    60% {
+        transform: rotate(0deg)
+    }
+    80% {
+        transform: rotate(-10deg)
+    }
+    100% {
+        transform: rotate(-10deg)
+    }
+}
+
+/*---------------------------- einde keyframes -----------------------------------*/
+
+
+/*------------------------------------------ speciale vormen stylen ----------------------------------*/
+
+/*--------------- infinity logo ------------------*/
+div#infinity {
+    position: relative;
+    width: 212px;
+    height: 100px;
+    box-sizing: content-box;
+    margin-left: 94px;
+    top: 150px;
+}
+
+div#infinity:before, div#infinity:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    border: 20px solid var(--color_1);
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
+}
+
+div#infinity:after {
+    left: auto;
+    right: 0;
+    border-radius: 50px 50px 50px 0;
+    transform: rotate(45deg);
+}
+
+/*-------------einde infinity logo ---------------*/
+
+/* yin yang logo */
+div#yin_yang {
+    width: 96px;
+    box-sizing: content-box;
+    height: 48px;
+    background: dimgrey;
+    border-color: var(--color_1);
+    border-style: solid;
+    border-width: 2px 2px 50px 2px;
+    border-radius: 100%;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    z-index: 19;
+}
+
+div#yin_yang:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: dimgrey;
+    border: 18px solid var(--color_1);
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+}
+
+div#yin_yang:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: var(--color_1);
+    border: 18px solid dimgrey;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+}
+
+/* einde yin yang logo */
+
+/*----------------------------- einde speciale vormen stylen -----------------------------*/
+
+
+/* ------------ templates voor terugkerende div's --------------------*/
+
+/* next knop */
+button#next {
+    border: 2px solid black;
+    height: 50px;
+    width: 150px;
+    font-family: 'quicksand', sans-serif;
+    background-color: #0000d2;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    left: 170px;
+    top: 115px;
+    animation-name: wiggle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+button#next:hover {
+    background-color: #190061;
+    color: gray;
+}
+
+button#next p {
+    margin: 0;
+}
+
+/*einde next knop*/
+
+
+
+
+
+
+
+
+
+
+
